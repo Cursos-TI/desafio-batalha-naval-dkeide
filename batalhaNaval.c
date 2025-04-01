@@ -10,14 +10,14 @@ int main() {
             tabela[i][j] = '0';
         }
     }
-    // Posicionando os 6 navios (representados por '3')
-    tabela[2][3] = '3';  // Navio na posição C4
-    tabela[2][4] = '3';  // Navio na posição C5
-    tabela[2][5] = '3';  // Navio na posição C6
+    // Posicionando os 6 navios nas diagonais (representados por '3')
+    tabela[0][0] = '3';  // Navio na posição A1
+    tabela[1][1] = '3';  // Navio na posição B2
+    tabela[2][2] = '3';  // Navio na posição C3
 
-    tabela[6][8] = '3';  // Navio na posição G9
-    tabela[7][8] = '3';  // Navio na posição H9
-    tabela[8][8] = '3';  // Navio na posição I9
+    tabela[0][9] = '3';  // Navio na posição A10
+    tabela[1][8] = '3';  // Navio na posição B9
+    tabela[2][7] = '3';  // Navio na posição C8
 
     // Imprimindo a tabela com letras nas linhas e números nas colunas
     printf("   ");
